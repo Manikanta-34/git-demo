@@ -22,6 +22,10 @@ public class RestController {
 		return Arrays.asList(result);
 		
 	}
+	@GetMapping("/hello")
+	public String hello(){
+		return "Hello Welcome..";
+	}
 	
 
 	
