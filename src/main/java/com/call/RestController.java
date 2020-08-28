@@ -23,7 +23,7 @@ public class RestController {
 		return Arrays.asList(result);
 		
 	}
-	@GetMapping("/hello")
+	@GetMapping("/Hello")
 	public String hello(){
 		return "Hello Welcome..";
 	}
